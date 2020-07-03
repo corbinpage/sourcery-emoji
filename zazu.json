@@ -1,16 +1,13 @@
 {
-  "name": "zazu-emoji",
+  "name": "sourcery-emoji",
   "version": "0.1.0",
   "icon": "fa-hand-spock-o",
-  "description": "Emoji for Zazu",
+  "description": "Emoji for Sourcery",
   "blocks": {
     "input": [
       {
         "id": "emoji",
-        "type": "PrefixScript",
-        "prefix": "moji",
-        "space": true,
-        "args": "Required",
+        "type": "RootScript",
         "script": "src/zazu.js",
         "connections": ["copy"]
       }

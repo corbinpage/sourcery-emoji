@@ -15,9 +15,15 @@ const fromRaw = ({ char, name }) => ({
 });
 
 module.exports = (pluginContext) => {
-  return (query, env = {}) => {
-    return new Promise((resolve, reject) => {
-      resolve(search(query).map(fromRaw));
-    });
-  };
-};
+  return {
+    respondsTo: (query) => {
+      // return query.match(/.*/)
+      return true
+    },
+    search: (query, env = {}) => {
+      return new Promise((resolve, reject) => {
+        resolve(search(query).map(fromRaw));
+      });
+    }
+  }
+}
