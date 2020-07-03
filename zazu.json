@@ -8,7 +8,7 @@
       {
         "id": "emoji",
         "type": "RootScript",
-        "script": "src/zazu.js",
+        "script": "src/index.js",
         "connections": ["copy"]
       }
     ],

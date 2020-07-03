@@ -4,7 +4,7 @@
 const search = require('./moji.js')({ limit: 20 });
 
 /**
- * Map a raw entry from the emojilib to a zazu entry for display
+ * Map a raw entry from the emojilib to a Result for display
  */
 const fromRaw = ({ char, name }) => ({
   id: char,
@@ -17,8 +17,7 @@ const fromRaw = ({ char, name }) => ({
 module.exports = (pluginContext) => {
   return {
     respondsTo: (query) => {
-      // return query.match(/.*/)
-      return true
+      return query.match(/.+/)
     },
     search: (query, env = {}) => {
       return new Promise((resolve, reject) => {
