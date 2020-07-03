@@ -15,7 +15,7 @@
     "output": [
       {
         "id": "copy",
-        "type": "CopyToClipboard",
+        "type": "InsertText",
         "text": "{value}"
       }
     ]
