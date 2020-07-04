@@ -1,26 +1,19 @@
-## Zazu Emoji
+## Sourcery Emoji
 
-[![Build Status](https://img.shields.io/circleci/project/iansinnott/zazu-emoji.svg)](https://circleci.com/gh/iansinnott/zazu-emoji)
-
-> ⚡ Fast, offline emoji search for Zazu! 📈😸😂
-
-![Usage Demo](http://dropsinn.s3.amazonaws.com/Kapture%202017-02-05%20at%2017.15.45.gif)
+> Insert any emoji using the Sourcery app
 
 ## Usage
 
-Add it to your `.zazurc.json` file:
+Add it to your `config` file:
 
 ```json
 {
   "plugins": [
-    "iansinnott/zazu-emoji"
+    "corbinpage/sourcery-emoji"
   ]
 }
 ```
 
-## Acknowledgments
+## License
 
-Based on the excellent [emojilib module][].
-
-[emojilib module]: https://github.com/muan/emojilib
-
+MIT
