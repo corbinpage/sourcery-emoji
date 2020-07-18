@@ -1,6 +1,6 @@
 const emojiDict = require('emojilib').lib;
 const R = require('ramda');
-const debug = require('debug')('zazu-emoji:moji');
+const debug = require('debug')('sourcery-emoji:moji');
 const { IO } = require('shirt');
 
 const keywordIndex = require('./keywordIndex.json');

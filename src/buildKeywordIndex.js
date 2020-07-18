@@ -3,7 +3,7 @@ const path = require('path');
 const emojiDict = require('emojilib').lib;
 const emojiKeys = require('emojilib').ordered;
 const R = require('ramda');
-const debug = require('debug')('zazu-emoji:buildKeywordIndex');
+const debug = require('debug')('sourcery-emoji:buildKeywordIndex');
 const { IO } = require('shirt');
 
 // Having the full output of the emoji lib is helpf for debugging
