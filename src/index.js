@@ -10,7 +10,7 @@ const fromRaw = ({ char, name }) => ({
   id: char,
   icon: `./emoji-images/${name}.png`,
   title: `${char} :${name}:`,
-  subtitle: `Copy emoji`,
+  subtitle: `Insert emoji`,
   value: char,
 });
 

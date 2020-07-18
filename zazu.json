@@ -9,12 +9,12 @@
         "id": "emoji",
         "type": "RootScript",
         "script": "src/index.js",
-        "connections": ["copy"]
+        "connections": ["insert"]
       }
     ],
     "output": [
       {
-        "id": "copy",
+        "id": "insert",
         "type": "InsertText",
         "text": "{value}"
       }
